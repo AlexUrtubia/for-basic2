@@ -91,11 +91,11 @@ print(z)
     # Ejemplo: ultimate_analysis ([37,2,1, -9]) 
     # debería devolver {'total': 31, 'promedio': 7.75, 'minimo': -9, 'maximo': 37, 'longitud': 4}
 def analisis (a): 
-    return {'Total : ', sumatotal(a),
-            'Promedio : ', prom(a),
-            'Mínimo : ', min(a),
-            'Máximo : ', max(a),
-            'Longitud : ', longlista(a),}
+    return {'Total': sumatotal(a),
+            'Promedio': prom(a),
+            'Mínimo': min(a),
+            'Máximo': max(a),
+            'Longitud': longlista(a)}
 y = analisis([6,3,7,-2,1,2]) 
 print(y)
 z = analisis([-1, -6, -4, -2, -7, -7, -4, -123, -34.4 -2]) 
